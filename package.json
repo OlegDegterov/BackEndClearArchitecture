@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/OlegDegterov/BackEndClearArchitecture#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "helmet": "^7.1.0"
   }
 }
