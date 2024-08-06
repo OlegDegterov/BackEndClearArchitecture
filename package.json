@@ -1,0 +1,21 @@
+{
+  "name": "backendcleararchitecture",
+  "version": "1.0.0",
+  "description": "ClearArchitecture",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegDegterov/BackEndClearArchitecture.git"
+  },
+  "author": "olegdegterov@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlegDegterov/BackEndClearArchitecture/issues"
+  },
+  "homepage": "https://github.com/OlegDegterov/BackEndClearArchitecture#readme",
+  "dependencies": {}
+}
