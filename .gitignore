@@ -10,6 +10,7 @@ npm-debug.log*
 # IDEs and editors
 /.idea
 .settings/
+.vscode/
 
 # IDE - VSCode
 .vscode/*
