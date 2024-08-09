@@ -29,6 +29,7 @@ export class C {
 
 @Injectable("D")
 export class D {
-  constructor(@Inject() c: C) {}
+  // TO-DO
+  // constructor(@Inject() c: C) {}
   @Props prop: number;
 }
