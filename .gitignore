@@ -19,4 +19,7 @@ npm-debug.log*
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# Files
+ts.repetition.ts
+
 
