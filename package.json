@@ -1,38 +1,56 @@
 {
-  "name": "backendcleararchitecture",
-  "version": "1.0.0",
-  "description": "ClearArchitecture",
-  "main": "index.js",
-  "type": "commonjs",
-  "scripts": {
-    "start": "node ./dist/main.js",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OlegDegterov/BackEndClearArchitecture.git"
-  },
-  "author": "olegdegterov@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OlegDegterov/BackEndClearArchitecture/issues"
-  },
-  "homepage": "https://github.com/OlegDegterov/BackEndClearArchitecture#readme",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.20.2",
-    "class-transformer": "^0.5.1",
-    "class-validator": "^0.14.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "helmet": "^7.1.0",
-    "inversify": "^6.0.2",
-    "reflect-metadata": "^0.2.2",
-    "tslog": "^4.9.3"
-  },
-  "devDependencies": {
-    "@types/bcryptjs": "^2.4.6",
-    "@types/express": "^4.17.21"
-  }
+	"name": "backendcleararchitecture",
+	"version": "1.0.0",
+	"description": "ClearArchitecture",
+	"main": "index.js",
+	"type": "commonjs",
+	"scripts": {
+		"start": "node ./dist/main.js",
+		"dev": "nodemon",
+		"lint": "eslint ./src/**",
+		"lint:fix": "eslint ./src/** --fix",
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"generate": "prisma generate"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/OlegDegterov/BackEndClearArchitecture.git"
+	},
+	"author": "olegdegterov@gmail.com",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/OlegDegterov/BackEndClearArchitecture/issues"
+	},
+	"homepage": "https://github.com/OlegDegterov/BackEndClearArchitecture#readme",
+	"dependencies": {
+		"@prisma/client": "^5.18.0",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.20.2",
+		"class-transformer": "^0.5.1",
+		"class-validator": "^0.14.1",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"helmet": "^7.1.0",
+		"inversify": "^6.0.2",
+		"reflect-metadata": "^0.2.2",
+		"tslog": "^4.9.3"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3.1.0",
+		"@eslint/js": "^8.57.0",
+		"@eslint/migrate-config": "^1.2.0",
+		"@types/bcryptjs": "^2.4.6",
+		"@types/express": "^4.17.21",
+		"@typescript-eslint/eslint-plugin": "^8.0.1",
+		"@typescript-eslint/parser": "^8.0.1",
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"nodemon": "^3.1.4",
+		"prettier": "^3.3.3",
+		"prisma": "^5.18.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.4"
+	}
 }

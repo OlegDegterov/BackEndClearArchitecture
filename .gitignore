@@ -22,4 +22,13 @@ npm-debug.log*
 # Files
 ts.repetition.ts
 
+# Variables
+/.env
+
+# DB
+/prisma/dev.db
+/prisma/dev.db-journal
+
+
+
 
