@@ -29,6 +29,10 @@ ts.repetition.ts
 /prisma/dev.db
 /prisma/dev.db-journal
 
+# Monitoring tools
+/.clinic
+
+
 
 
 
