@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from "express";
+import { Request, Response, NextFunction } from 'express';
 export interface IMiddleWare {
-  execute: (req: Request, res: Response, next: NextFunction) => void;
+	execute: (req: Request, res: Response, next: NextFunction) => void;
 }
